@@ -25,7 +25,7 @@ METHOD paymentset_update_entity.
   "  Process Request
   " ------------------------------------------------------------------ "
 
-  me->get_payment(
+  me->upd_payment(
     EXPORTING
       iw_data   = lw_data
     IMPORTING
