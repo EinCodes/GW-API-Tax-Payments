@@ -1,3 +1,10 @@
+* <SIGNATURE>---------------------------------------------------------------------------------------+
+* | Instance Private Method /EIN/CL_TAX_PAYMENT_DPC_EXT->RFC_SAVE_LOG
+* +-------------------------------------------------------------------------------------------------+
+* | [--->] I_ENTITY_TYPE                  TYPE        STRING
+* | [--->] IT_KEY_TAB                     TYPE        /IWBEP/T_MGW_NAME_VALUE_PAIR(optional)
+* | [!CX!] /IWBEP/CX_MGW_BUSI_EXCEPTION
+* +--------------------------------------------------------------------------------------</SIGNATURE>
 METHOD RFC_SAVE_LOG.
 
   DATA(lw_return) = VALUE bapiret2(
